@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    min-height: 42px;
+    padding: 16px 0;
+    margin: 0 15px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.6);
+}
+
+.item.single-pic {
+    display: flex;
+}
+
+.single-pic .content {
+    flex: 2;
+    font-size: 17px;
+    padding-right: 24px;
+}
+
+.single-pic img {
+    width: 33%;
+    display: block;
+}
+
+.item.multiple-image h3 {
+    font-size: 17px;
+}
+
+.item.multiple-image .image-list img {
+    width: 33%;
+}
+.large-img{
+	width: 100%!important;
+}
